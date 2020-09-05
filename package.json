@@ -1,9 +1,9 @@
 {
-  "name": "cinzia-zigat-proxy",
+  "name": "tagaz-proxy-joe",
   "version": "1.0.0",
-  "description": "This is my proxy to bring all zigat modules together.",
+  "description": "This is my proxy to bring all tagaz modules together.",
   "main": "server/index.js",
-  "author": "Cinzia Borello",
+  "author": "Joe Dry",
   "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
