@@ -1,7 +1,5 @@
 config:
   target: "http://localhost:3000/api"
-  http:
-    pool: 1
   phases:
     - duration: 30
       arrivalRate: 1
