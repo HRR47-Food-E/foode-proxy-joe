@@ -14,9 +14,9 @@ app.use('/api/photos/:restaurantID', createProxyMiddleware({ target: 'http://loc
 app.use('/:copyId/restaurants/:id', createProxyMiddleware({ target: 'http://localhost:3002', changeOrigin: true }));
 
 // Tips & Recommendations
-app.use('/api/tips/:id', createProxyMiddleware({ target: 'http://localhost:3003', changeOrigin: true }));
-app.use('/api/articles/:id', createProxyMiddleware({ target: 'http://localhost:3003', changeOrigin: true }));
-app.use('/api/features/:id', createProxyMiddleware({ target: 'http://localhost:3003', changeOrigin: true }));
+app.use('/api/tips/:id', createProxyMiddleware({ target: 'http://3.14.8.30:3003', changeOrigin: true }));
+app.use('/api/articles/:id', createProxyMiddleware({ target: 'http://3.14.8.30:3003', changeOrigin: true }));
+app.use('/api/features/:id', createProxyMiddleware({ target: 'http://3.14.8.30:3003', changeOrigin: true }));
 
 // Similar Restaurants
 app.use('/restaurants/:id', createProxyMiddleware({ target: 'http://localhost:3004', changeOrigin: true }));
